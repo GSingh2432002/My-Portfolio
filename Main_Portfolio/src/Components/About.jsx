@@ -37,7 +37,7 @@ const About = () => {
                 <Skills skill="Github"/>                
                 <Skills skill="Python"/>                
                 <Skills skill="Numpy"/>                
-                <Skills skill="FlowCV"/>
+                <Skills skill="MongoDB"/>
             </div>
         </>
     );

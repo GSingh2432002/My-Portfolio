@@ -4,10 +4,10 @@ import {CgFileDocument} from "react-icons/cg";
 
 const ProjectBox = ({projectPhoto, projectName}) => {
     const desc = {
-        GithubFinderDesc:
+        FinderDesc:
             "This website is for a people who want to find github username of a particular person by using their username or name.",
-        GithubFinderFile: "https://github.com/GSingh2432002/Github-Finder",
-        GithubFinderWebsite: "https://githubfinderbygks.netlify.app/",
+        FinderFile: "https://github.com/GSingh2432002/Github-Finder",
+        FinderWebsite: "https://githubfinderbygks.netlify.app/",
 
         MovieDesc:
             "This web app  is for helping you find your desired movie.The project helped me with understanding the working of API.",

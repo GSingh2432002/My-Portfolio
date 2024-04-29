@@ -1,15 +1,15 @@
 import React from "react";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   FaReact,
   FaGitAlt,
   FaGithub,
-  FaNpm,
-  FaFigma,
+  FaPython,
   FaBootstrap,
   FaHtml5,
   FaCss3,
 } from "react-icons/fa";
+import { SiNumpy } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 
@@ -20,12 +20,12 @@ const Skills = ({ skill }) => {
     Javascript: <DiJavascript1 />,
     Bootstrap: <FaBootstrap />,
     Tailwind: <SiTailwindcss />,
-    "C++": <CgCPlusPlus />,
     React: <FaReact />,
     Git: <FaGitAlt />,
     Github: <FaGithub />,
-    Npm: <FaNpm />,
-    Figma: <FaFigma />,
+    Python: <FaPython />,
+    Numpy: <SiNumpy />,
+    MongoDB: <SiMongodb />
   };
 
   return (
