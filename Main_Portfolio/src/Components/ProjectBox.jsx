@@ -4,23 +4,21 @@ import {CgFileDocument} from "react-icons/cg";
 
 const ProjectBox = ({projectPhoto, projectName}) => {
     const desc = {
-        DictionaryDesc:
+        DictionaryApplication:
         "Developed a dynamic and responsive dictionary application using React to allow users to search for word definition, enhancing my skills in frontend development and used DictionaryAPI intergration.",
         DictionaryGithub: "https://github.com/GSingh2432002/Dictionary-Application",
-        DictionaryWebsite: "https://peaceful-wisp-c0e765.netlify.app/",
+        DictionaryWebsite: "peaceful-wisp-c0e765.netlify.app/",
 
         FinderDesc:
             "This website is for a people who want to find github username of a particular person by using their username or name.",
-        FinderGithub: "https://github.com/GSingh2432002/Github-Finder",
+        FinderFile: "https://github.com/GSingh2432002/Github-Finder",
         FinderWebsite: "https://githubfinderbygks.netlify.app/",
 
-        MovieFlixDesc:
+        MovieFlix:
             "This web app is for helping you find your desired movie.The project helped me with understanding the working of TMDb API.",
         MovieGithub: "https://github.com/GSingh2432002/MovieFlix",
         MovieWebsite: "https://movie-flix-one-steel.vercel.app/",
     };
-
-    const projectDetails = desc[projectName];
 
   return (
     <div className='projectBox'>
@@ -30,10 +28,10 @@ const ProjectBox = ({projectPhoto, projectName}) => {
                 <br />
                 <h3>{projectName}</h3>
                 <br />
-                <p>{projectDetails.description}</p>
+                {desc[projectName + "Desc"]}
                 <br />
                 
-            <a href={projectDetails.FaGithub} target='_blank'>
+            <a href={desc[projectName + "Github"]} target='_blank'>
                 <button className='projectbtn'>
                     <FaGithub /> Github
                 </button>
