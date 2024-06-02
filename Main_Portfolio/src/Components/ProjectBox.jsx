@@ -7,7 +7,7 @@ const ProjectBox = ({projectPhoto, projectName}) => {
         DictionaryApplication:
         "Developed a dynamic and responsive dictionary application using React to allow users to search for word definition, enhancing my skills in frontend development and used DictionaryAPI intergration.",
         DictionaryGithub: "https://github.com/GSingh2432002/Dictionary-Application",
-        DictionaryWebsite: "peaceful-wisp-c0e765.netlify.app/",
+        DictionaryWebsite: "https://peaceful-wisp-c0e765.netlify.app/",
 
         FinderDesc:
             "This website is for a people who want to find github username of a particular person by using their username or name.",
