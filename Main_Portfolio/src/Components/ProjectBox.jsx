@@ -11,7 +11,7 @@ const ProjectBox = ({projectPhoto, projectName}) => {
 
         FinderDesc:
             "This website is for a people who want to find github username of a particular person by using their username or name.",
-        FinderFile: "https://github.com/GSingh2432002/Github-Finder",
+        FinderGithub: "https://github.com/GSingh2432002/Github-Finder",
         FinderWebsite: "https://githubfinderbygks.netlify.app/",
 
         MovieFlix:

@@ -11,9 +11,10 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
+        <ProjectBox projectPhoto={Dictionary} projectName="DictionaryApplication" />
         <ProjectBox projectPhoto={Finder} projectName="GitHub Finder" />
         <ProjectBox projectPhoto={FilmImage} projectName="MoviFlix" />
-        <ProjectBox projectPhoto={Dictionary} projectName="Dictionary App" />
+        
       </div>
     </div>
   );
